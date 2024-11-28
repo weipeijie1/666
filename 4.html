@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 删除字符串中所有数字，但保留空格字符串       "ert 123dd df"  ---->"ert dd df"
+
+    function removeDigits(str) {
+  return str.replace(/\d+/g, '');
+}
+var str =prompt("ert 123dd df") ;
+alert(removeDigits(str));
+</script>
+</html>

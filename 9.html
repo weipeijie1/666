@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 9.手机号隐私处理 "17798765690" ----> "177****5690"
+    function hidePhoneNumber(phone) {
+  return phone.replace(/(\d{3})\d{4}(\d{4})/, '$1****$2');
+}
+var phone = "17798765690";
+console.log(hidePhoneNumber(phone)); 
+</script>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 8.去字符串首尾空格，不使用trim的方法     "    a    b    c     " ---->"a    b    c"
+    function removeLeadingAndTrailingSpaces(str) {
+  return str.replace(/^\s+|\s+$/g, '');
+}
+var str = "    a    b    c     ";
+console.log(removeLeadingAndTrailingSpaces(str));
+</script>
+</html>
